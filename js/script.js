@@ -5,9 +5,15 @@ const validation = document.getElementById('run');
 
 // On ajoute un écouteur d'évènement sur l'élément HTML qui a pour ID "run"
 validation.addEventListener('click', () => {
-    alert('Hello World');
     let affichage = document.getElementById('affichages');
     affichage.style.display = "block";
+    let selectElmt = document.getElementById('nombre-select');
+    console.log(selectElmt.value);
+    let k = selectElmt.value;
+    for (let i = 0; i < k; i++) {
+        affichage.innerHTML += `<img class="img" src="images/${i}.jpg" alt="image1">`;
+    }
+   
 });
 
 
