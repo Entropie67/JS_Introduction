@@ -1,6 +1,5 @@
 
 console.log('Hello World!');
-alert('Hello World!');
 document.write('Hello World!');
 
 
@@ -11,6 +10,10 @@ if (age > 18) {
     console.log('You are adult!');
 } else {  
     console.log('You are not adult!');
+}
+
+for (let i = 0; i < 10; i++) {
+    console.log("coucou", i);
 }
 
 

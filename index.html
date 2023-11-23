@@ -7,14 +7,25 @@
     </head>
     <body id='body'>
        
+        <h1 id="abc">Vos plus belles créations</h1>
+        <p id="bl">Ce site permet de visulaiser les plus belles création d'images assistées par IA</p>
 
-
-        <h1 id="abc">Mes plus belles créations</h1>
-        <p id="bl">Ce site permet de visulaiser les plus belles images</p>
-        <p id="lapin">Ici un autre truc ! </p>
+        <label for="nombre-select">Combien d'images souhaitez vous afficher ?</label>
+        <select name="nombre" id="nombre-select">
+            <option value="">--Veuillez choisir une valeur--</option>
+            <option value="dog">1</option>
+            <option value="cat">2</option>
+            <option value="hamster">3</option>
+            <option value="parrot">4</option>
+            <option value="spider">5</option>
+            <option value="goldfish">6</option>
+        </select>
+        <input id="run" type="button" value="Affichage" />
+        <div id="affichages">
+            <img class="img" src="images/panda_cool.jpg" alt="image1">
+        </div>
        
-   
-
+        
 
 
         <script src="js/script.js"></script>
