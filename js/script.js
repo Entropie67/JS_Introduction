@@ -1,6 +1,15 @@
 
-console.log('Hello World!');
-document.write('Hello World!');
+
+// On réccupère l'élément HTML qui a pour ID "run"
+const validation = document.getElementById('run');
+
+// On ajoute un écouteur d'évènement sur l'élément HTML qui a pour ID "run"
+validation.addEventListener('click', () => {
+    alert('Hello World');
+    let affichage = document.getElementById('affichages');
+    affichage.style.display = "block";
+});
+
 
 
 
