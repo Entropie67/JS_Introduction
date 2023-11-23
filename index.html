@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet">
+        <title>Ma page</title>
+    </head>
+    <body id='body'>
+        <h1 id="abc">Mon site secret</h1>
+        <p id="bl">Ce site permet d'accèder à des informations secrètes</p>
+        <p id="lapin">Ici un autre truc ! </p>
+        <form>
+            <label for="name">Name:</label></br>
+            <input type="text" id="name" name="name" required
+                   minlength="4" maxlength="8" size="10">
+            </br>
+            <label for="mdp">Mot de passe:</label></br>
+            <input type="password" id="mdp" name="pwd" required
+                   minlength="4" maxlength="8" size="10">
+            </br>
+            <button id = "validation" type="button">
+                Validation
+            </button>
+        </form>
+        <div id="secret"></div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
